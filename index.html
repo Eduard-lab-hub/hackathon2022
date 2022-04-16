@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container-free">
+        <div class="logos">
+            <a href="#"><img src="img/logos.png" alt="logo"></a>
+           
+        </div> 
+        
+        <div class="search-box">
+            <input type="text" class="search-txt" placeholder="Search.......">
+            <a href="#" class="search-btn"><i class="fa fa-search" aria-hidden="true"></i></a>
+        </div>
+
+        <div>
+            <a href="#" class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.jpg" alt="ukflag"
+                        width="45px" height="30px"></button></a>
+            <a href="#" class="header-item-lang-en"><button id="ru" class="translate"><img src="img/ru.jpg" alt="ruflag"
+                        width="45px" height="30px"></button></a>
+        </div>
+
+        <!-- <select class="change-lang">
+            <option value="kg">KG</option>
+            <option value="ru" selected>RU</option>
+            <option value="en">EN</option>
+        </select> -->
+    </div>
+    <!--шапка сайта-->
+    <header>
+        <nav>
+            <div class="topnav" id="myTopnav">
+
+                <!-- <dt class="home">Главная</dt> -->
+                <a href="index.html" class="lang" key="home">Home</a>
+                <a href="gallary.html" class="lang" key="gallary">Gallary</a>
+                <a href="guide.html" class="lang" key='guide'>Guide</a>
+                <a href="location.html" class="lang" key="locations">Locations</a>
+                <a href="contact.html" class="lang" key="contacts">Contacts</a>
+                <a href="about.html" class="lang" key="we">About Us</a>
+                <!-- <a href="#" class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.jpg" alt="ukflag" width="40px" height="30px" ></button></a>
+                <a href="#" class="header-item-lang-en"><button id="ru" class="translate"><img src="img/ru.jpg" alt="ruflag" width="40px" height="30px" ></button></a> -->
+                <a id="menu" href="#" class="icon">&#9776;</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--контент сайта-->
+    <main>
+        <div class="slider">
+            <div class="item">
+                <img src="img/it/тоо.jpg" alt="">
+                <div class="sliderText lang" key="mountains">The mountains</div>
+            </div>
+
+
+            <div class="item">
+                <img src="img/it/Злаки Долины чудес (Курага).jpg" alt="">
+                <div class="sliderText lang" key="cereals">Cereals of the Valley of Wonders</div>
+            </div>
+
+
+            <div class="item">
+                <img src="img/it/Абшыр-Ата.jpg" alt="">
+                <div class="sliderText lang" key="ata">Abshyr-Ata</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Злаки Долины чудес.jpg" alt="">
+                <div class="sliderText lang" key = 'wonder'> Cereals of Wonder Valley</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Урюк.jpg" alt="">
+                <div class="sliderText lang" key='dried'>Dried apricots</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/серткент.jpg" alt="">
+                <div class="sliderText lang" key='sarkent'>Sarkent National Park</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Крепость Кан.jpg" alt="">
+                <div class="sliderText lang" key='fortress'>Fortress Caen</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Туркестанский горный хребет.jpg" alt="">
+                <div class="sliderText lang" key='turkestan'>Turkestan mountain range</div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Сады Долины чудес.jpg" alt="">
+                <div class="sliderText lang" key='wonder'>Wonder Valley Gardens</div>
+            </div>
+            <div class="item">
+                <img src="img/it/сары тоо1.jpg" alt="">
+                <div class="sliderText lang" key='sary'>Sary-Too </div>
+            </div>
+
+            <div class="item">
+                <img src="img/it/Озеро Ай-Кёль.jpg" alt="">
+                <div class="sliderText lang" key='lake'> Lake Ai-Kol </div>
+            </div>
+            <a class="prev" onclick="minusSlide()">&#10094;</a>
+            <a class="next" onclick="plusSlide()">&#10095;</a>
+
+        </div>
+
+        <div class="slider-dots">
+            <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(5)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(6)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(7)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(8)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(9)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(10)"></span>
+            <span class="slider-dots_item" onclick="currentSlide(11)"></span>
+        </div>
+        <div class="advantages_container">
+            <div class="advantages">
+                <div class="advantages_item">
+                    <img src="img/кони.jpg" alt="IMG1">
+                    <h2 class="lang" key="horse">Horse rides</h2>
+                    <p class="lang" key="horse2">Horse riding is a combination of horseback riding and excursions
+                        to natural attractions.The cost of renting a horse for one day in different regions
+                        of the country varies from 3 to 10 dollars.
+                    </p>
+                </div>
+                <div class="advantages_item">
+                    <img src="img/сокол.jpg" alt="Соколиная охота">
+                    <h2 class="lang" key="falcon">Falcon hunting</h2>
+                    <p class="lang" key="falconry2">Falconry - hunting for wild animals with the help of specially
+                        trained golden eagles and falcons. The cost of entertainment depends on the experience
+                        of the berkutchi and varies from 100 to 300 dollars
+                    </p>
+
+                </div>
+                <div class="advantages_item">
+                    <img src="img/Альпинизм.jpg" alt="Альпинизм">
+                    <h2 class="lang" key="mountain">Mountaineering and trekking</h2>
+                    <p class="lang" key="mountain2">Climbing and trekking - climbing hard-to-reach mountain peaks and
+                        hiking in
+                        the natural environs of the Batken region do not provide for payment.
+                        But for setting up a tent, you will have to pay from 5 to 30 dollars.
+
+                    </p>
+                </div>
+                <div class="advantages_item">
+                    <img src="img/Рафтинг.jpg" alt="Рафтинг">
+                    <h2 class="lang" key="rafting">Rafting</h2>
+                    <p class="lang" key="rafting2">
+                        Rafting is rafting on mountain rivers. The cost of a rafting tour on the most popular
+                        sections of the countries rivers varies from 50 to 150 dollars.
+                    </p>
+                </div>
+                <div class="advantages_item">
+                    <img src="img/туризм.jpg" alt="туризм">
+                    <h2 class="lang" key="cultural">Cultural tourism</h2>
+                    <p class="lang" key="cultural2">
+                        Historical and cultural tourism - visiting and exploring places of historical importance.
+                        Ancient stone statues and rock paintings (petroglyphs) are popular in Kyrgyzstan.
+                    </p>
+                </div>
+                <div class="advantages_item">
+                    <img src="img/Спелеотуризм.jpg" alt="Спелеотуризм">
+                    <h2 class="lang" key="speleotourism">Speleotourism</h2>
+                    <p class="lang" key="speleotourism2">
+                        Speleotourism - visiting caves and overcoming obstacles in them with special sports equipment.
+                        You can also find unique rock paintings in the Kyrgyz grottoes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--футер-->
+    <footer>
+           <nav>
+            <div>
+                <a href="index.html" class="lang" key="home">Home</a>
+                <a href="gallary.html" class="lang" key="gallary">Gallary</a>
+                <a href="guide.html" class="lang" key='guide'>Guide</a>
+                <a href="location.html" class="lang" key="locations">Locations</a>
+                <a href="contact.html" class="lang" key="contacts">Contacts</a>
+                <a href="about.html" class="lang" key="we">About Us</a>
+                <!-- <a href="#" class="header-item-lang-en"><button id="en" class="translate"><img src="img/en.jpg" alt="ukflag" width="40px" height="30px" ></button></a>
+                <a href="#" class="header-item-lang-en"><button id="ru" class="translate"><img src="img/ru.jpg" alt="ruflag" width="40px" height="30px" ></button></a> -->
+                <!-- <a id="menu" href="#" class="icon">&#9776;</a> -->
+            </div>
+        </nav>
+        <!-- <div class="logo2">
+            <a href="index.html"><img class="graficlogo" src="img/Починка.gif" alt="LOGO"></a>
+        </div> -->
+        <div class="socseti">
+            <a href="#"><img src="img/socseti/em.png" alt=""></a>
+            <a href="#"><img src="img/socseti/face.png" alt=""></a>
+            <a href="#"><img src="img/socseti/goo.png" alt=""></a>
+            <a href="#"><img src="img/socseti/inst.png" alt=""></a>
+            <a href="#"><img src="img/socseti/pint.png" alt=""></a>
+        </div>
+        <p>IT-Licey № 70 2022 год</p>
+
+    </footer>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</body>
+
+</html>

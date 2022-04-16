@@ -1,0 +1,110 @@
+
+main{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+
+
+.blog-container{
+    background: rgb(211, 205, 205);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 30rem;
+   
+}
+.blog-container:hover{
+    border-color: #ddd4d4;
+    color: rgb(184, 20, 20);
+}
+.blog-cover{
+    /*background: url(../img/гостинца.webp);*/
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0 ,0,0,0.2 ) 0 64px 64px 16px;
+}
+.blog-cover img{
+    width: 30rem;
+    height: 15rem;
+}
+
+.blog-body{
+    margin: 0 auto;
+    width: 80%;
+}
+.blog-title h1 a{
+    color: #333;
+    font-weight: 100;
+
+}
+.blog-text p{
+   color: #857f7f;
+}
+.blog-tags ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+.blog-tags li{
+   margin-left: 5rem;
+}
+.blog-tags a{
+    border: 1px solid #999999;
+    border-radius: 3px;
+    color: #968b8b;
+    font-size: 0.75rem;
+    height: 1.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 5rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    padding: 0 .5rem;
+    
+}
+.blog-tags{
+    margin-top: 8px;
+}
+.blog-futer{
+    border-top: 1px solid #e6e6e6e6;
+    margin: 0 auto;
+    padding-bottom: .125rem;
+    width: 80%;
+}
+.blog-futer ul{
+    list-style: none;
+    display: flex;
+    float: row wrap;
+    justify-content: end;
+    padding-left: 0;
+}
+.blog-futer li{
+    color: #999999;
+    font-size: .75rem;
+    height: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+}
+.published-date{
+    border: 1px solid #999999;
+    border-radius: 4px;
+    padding: 0 .5rem;
+    margin-top: 3px;
+}
+body{
+    background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,11,33,0.16290266106442575) 36%, rgba(173,55,82,0.6895133053221288) 50%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,11,33,0.16290266106442575) 36%, rgba(173,55,82,0.6895133053221288) 50%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,11,33,0.16290266106442575) 36%, rgba(173,55,82,0.6895133053221288) 50%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
+}
+.topnav{
+    background-color: nane;
+}

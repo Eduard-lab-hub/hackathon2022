@@ -1,0 +1,81 @@
+.container-free {
+    background: #5c195c;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+}
+.logos  img{
+    /* margin-bottom: 20px; */
+    width: 230px;
+    height: 100px;
+}
+
+/* .site-title{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 25px;
+} */
+
+
+
+input, button, select, textarea {
+    /* background: #b3a9be; */
+    /* border: 1px solid #b3a9be; */
+    padding: 26px 10px;
+    /* font-size: .9rem; */
+    /* outline: none; */
+    cursor: pointer;
+}
+
+/* ******************************** */
+
+
+
+.search-box {
+	display: flex;
+	position: absolute;
+	background-color: #2f3640;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+    margin-left: 100px;
+    margin-top: 11px;
+    
+}
+
+.search-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #f0f0f0;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: #2f3640;
+	text-decoration: none;
+}
+
+.search-txt {
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0;
+	color: #fff;
+	font-size: 16px;
+	transition: .4s;
+	line-height: 40px;
+	width: 0;
+}
+
+.search-box:hover .search-txt {
+	width: 240px;
+	padding: 0 6px;
+}
+
+.search-box:hover .search-btn {
+	background-color: #2b2b2b;
+}
